@@ -1,16 +1,32 @@
 {
   "name": "the-a-company",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The A Company's visa answers and applications as commands: every answer verified, with its quote and source. JSON in, JSON out.",
-  "keywords": ["visa", "us-visa", "ds-160", "cli", "mcp", "agent"],
+  "keywords": [
+    "visa",
+    "us-visa",
+    "ds-160",
+    "cli",
+    "mcp",
+    "agent"
+  ],
   "homepage": "https://theacompany.ai/developers",
-  "repository": { "type": "git", "url": "git+https://github.com/the-a-company/the-a-company-cli.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-a-company/the-a-company-cli.git"
+  },
   "license": "MIT",
   "author": "The-A-Company Global, Inc.",
   "type": "module",
-  "bin": { "the-a-company": "dist/cli.js" },
-  "files": ["dist"],
-  "engines": { "node": ">=18" },
+  "bin": {
+    "the-a-company": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"

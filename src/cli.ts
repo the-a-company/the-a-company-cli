@@ -8,7 +8,7 @@ type Row = { name: string; description: string; method: "GET" | "POST" | "DELETE
 type Flags = Record<string, string | true>;
 
 const API = (process.env.THE_A_COMPANY_API ?? "https://api.theacompany.ai").replace(/\/+$/, "");
-const VERSION = "0.1.0";
+const VERSION = "1.0.0";
 
 const out = (v: unknown) => process.stdout.write(`${JSON.stringify(v, null, 2)}\n`);
 function fail(code: string, message: string, exit = 1): never {
