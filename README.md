@@ -1,5 +1,30 @@
 # the-a-company
 
+```
+
+             ████████╗██╗  ██╗███████╗     █████╗
+             ╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗
+                ██║   ███████║█████╗      ███████║
+                ██║   ██╔══██║██╔══╝      ██╔══██║
+                ██║   ██║  ██║███████╗    ██║  ██║
+                ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝
+
+ ██████╗ ██████╗ ███╗   ███╗██████╗  █████╗ ███╗   ██╗██╗   ██╗
+██╔════╝██╔═══██╗████╗ ████║██╔══██╗██╔══██╗████╗  ██║╚██╗ ██╔╝
+██║     ██║   ██║██╔████╔██║██████╔╝███████║██╔██╗ ██║ ╚████╔╝
+██║     ██║   ██║██║╚██╔╝██║██╔═══╝ ██╔══██║██║╚██╗██║  ╚██╔╝
+╚██████╗╚██████╔╝██║ ╚═╝ ██║██║     ██║  ██║██║ ╚████║   ██║
+ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝
+
+                       ██████╗██╗     ██╗
+                      ██╔════╝██║     ██║
+                      ██║     ██║     ██║
+                      ██║     ██║     ██║
+                      ╚██████╗███████╗██║
+                       ╚═════╝╚══════╝╚═╝
+
+```
+
 The A Company's visa answers and applications, as commands. Every answer is the one on its page at [theacompany.ai](https://theacompany.ai), verified, with its quote and source.
 
 JSON in, JSON out. Runs in your terminal, in Claude Code, in Codex, in any agent with a shell.
@@ -20,7 +45,7 @@ npx the-a-company tour
 | `visa steps <path>` | the steps in order, verified, with their quote and source |
 | `visa price <path>` | the government fee and our price, and the link to pay |
 | `visa wait <path>` | today's wait for an interview appointment |
-| `visa documents <path>` | the documents, required, optional or conditional |
+| `visa documents <path>` | the documents, required or optional |
 | `visa photo <path>` | the photo rules |
 | `visa validity <path>` | how long the visa is valid, and its entries |
 | `visa sources <path>` | every official page the path quotes |
